@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score
 
 # Константы
 EMAIL_USER = os.getenv("EMAIL_USER")
-MODEL_VERSION = os.getenv("MODEL_VERSION", "1.0.0")
+MODEL_VERSION = os.getenv("MODEL_VERSION", "Unknown")
 ARTIFACT_PATH = "/tmp/airflow_hw5"
 os.makedirs(ARTIFACT_PATH, exist_ok=True)
 
